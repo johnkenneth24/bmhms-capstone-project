@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Verdana', sans-serif;
+  height: 100vh;
+  margin: 0px 0 0px 0;
+  background-image: url(images/bmhms-background.jpg);
+  background-size: cover;
+}
+
+.Login_Section{
+  height: 30rem;
+  position: relative;
+}
+
+.log_content {
+  border-radius: 10px;
+  position: relative;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+  
+}
+
+.hms-display {
+  background-image: url(images/1-Smart-City-Health-ICES-770x578.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+
+}
+.hms-display #overlay {
+  position: absolute;
+  display: initial;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(1,171,64,0.8);
+}
+
+.hms-display h3{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  position: absolute;
+  
+}
+
+.hms-login{
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  background-color: #ffffff;
+}
+
+
+.hms-login .form-login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding:40px;
+	height: 470px;
+  margin-left: 10px;
+	text-align: center;
+  background-color: white;
+}
+
+.form-login .login-user-logo {
+  margin-bottom: 20px;
+  
+}
+
+.form-login .input-group {
+  margin: 5px;
+}
+
+.form-login .form-control {
+  border-radius: 25px;
+  outline: none;
+  width: 80%;
+}
+
+.form-login .form-control:focus {
+  border: 2px solid #60b61d;
+} 
+
+.icon {
+  border-radius: 25px;
+  padding: 10px;
+  background: #02cc4c;
+  color: white;
+  text-align: center;
+  min-width: 20%;
+}
+
+.form-login .btn{
+  background-color: #02cc4c;
+  border-radius: 25px;  
+  color: white;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  width: 55%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.form-login p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.form-login .forgotpass{
+  font-size: 12px;
+  transform: translateX(73px);
+}
+
+@media (max-width: 768px){
+  body{
+    background-image: url(images/1-Smart-City-Health-ICES-770x578.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .Login_Section{
+    height: 100%;
+    position: relative;
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  .log_content {
+    border-radius: 10px;
+    width: 100%;
+    min-height: 100%;
+    box-shadow: 0 0 0;
+    
+  }
+
+  .hms-display {
+    background-image: none;
+    background-color: none;
+    z-index: 5;
+    width: 100%;
+    background-color: rgb(96, 182, 29, 0.5);
+  }
+
+  .hms-display #overlay {
+    position: relative;
+    display: initial;
+    width: 80%;
+    height: 100px;
+    background: none;
+  }
+
+  .hms-display h3{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+    
+  }
+
+  .hms-login{
+    background:none;
+  }
+
+  .hms-login .form-login {
+    transform: translateY(220px);
+    width: 450px;
+    height: 80%;
+    border-radius: 10px;
+  }
+
+  .form-login .login-user-logo {
+    transform: translateY(-230px);
+    margin-bottom: 0px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+
+/*MODAL*/
+/* Full-width input fields */
+.modal input[type=text], .modal input[type=password], .modal input[type=date]{
+  width: 90%;
+  padding: 5px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.modal .modal-content select{
+  width: 80%;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Set a style for all buttons */
+.modal .modal-content .btn-reg {
+  background-color: #60b61d;
+  border-radius: 25px;  
+  color: white;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  width: 55%;
+  opacity: 0.9;
+}
+
+.modal .modal-content .btn-reg:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index:999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 0px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 25px auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  padding: 20px;
+  font-size: 14px;
+}
+.modal h5{
+  color:#60b61d;
+}
+
+.modal .modal-content .form-group{
+  padding-top: 5px;
+}
+
+.modal .modal-content .info-head{
+  position: absolute;
+  transform: rotate(-90deg) translateX(-100px) translateY(-120px);
+  background-color: #60b61d;
+  padding: 8px 10px; 
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.modal .modal-content .in-col.col-end{
+  transform: translateX(20px);
+}
+
+/* The Close Button (x) */
+.close {
+  position: fixed;
+  right: 250px;
+  top: 0;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+@media (max-width: 576px){
+  .modal-content{
+    width: 90%;
+  }
+
+  .modal .modal-content .btn-reg{
+    width: 100%;
+  }
+}

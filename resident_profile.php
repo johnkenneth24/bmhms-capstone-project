@@ -50,7 +50,11 @@
           <div class="container position-relative d-flex flex-row  resident-list">
             <div class="col-9 res-list">
               <div class="res-account">
-                <p class="acc-info">NAME: <br> SEX: AGE: <br>PUROK: FAMILY NO.: </p>
+                <p class="acc-info">NAME: </p>
+                <p class="acc-info">SEX: </p>
+                <p class="acc-info">AGE: </p>
+                <p class="acc-info">PUROK: </p>
+                <p class="acc-info">FAMILY NO.: </p>
               </div>
             </div>
               <div class="col-3 position-relative d-flex justify-content-center add-res-modal">

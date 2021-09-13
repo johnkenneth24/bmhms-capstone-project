@@ -55,20 +55,22 @@
         <div class="container position-relative d-flex flex-row  resident-list">
           <div class="col-9 res-list">
             <div class="res-account">
-              <p class="acc-info">NAME: </p>
+              <div class="d-flex  justify-content-between res-info">
+                <p class="acc-info">NAME: </p>
+                <p class="acc-info">DATE: </p>
+              </div>
               <div class="d-flex res-info">
-                <p class="acc-info">SEX: </p>
-                <p class="acc-info">AGE: </p>
+                <p class="acc-info">TYPE OF CONSULTATION: </p>
               </div>
               <div class="d-flex justify-content-between res-info">
                 <p class="acc-info">PUROK: </p>
-                <p class="acc-info"> FAMILY NO.: </p>
+                <p class="acc-info"> FAMILY HEAD.: </p>
 
                 <!-- Button trigger modal -->
                 <button type="button" class="acc-info-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"> See more... </button>
 
                 <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog">
+                  <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                       <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">ADD RESIDENT</h5>
@@ -156,8 +158,8 @@
                         </form>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-success">Add Resident</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-success">Update</button>
                       </div>
                     </div>
                   </div>
@@ -169,7 +171,7 @@
 
 
             </div>
-          </div>>
+          </div>
 
           <div class="col-3 position-relative d-flex justify-content-center add-res-modal">
 
@@ -179,7 +181,7 @@
               <button type="button" class="btn-add-res text-wrap" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><i class="fas fa-user-plus"></i> Add Resident </button>
 
               <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="staticBackdropLabel">ADD RESIDENT</h5>

@@ -326,3 +326,84 @@ select {
 }
 
 /*health consultation*/
+
+.add-consultation input,
+select {
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+  margin: 2px 5px 5px 0px;
+  text-transform: capitalize;
+  border: 2px solid #02cc4c;
+  border-radius: 5px;
+  outline: none;
+}
+
+.add-consultation .con-info {
+  border: 2px solid #01ab40;
+  width: 370px;
+  border-radius: 8px;
+  padding-left: 2px;
+  margin-right: 10px;
+}
+
+.consultation-info input {
+  width: 350px;
+}
+
+.con-info .consultation-acc input {
+  width: 173px;
+}
+
+.consult-acc-srch {
+  width: 370px;
+}
+
+.consult-acc-srch .dbcon-input,
+.dbcon-searchbtn {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.dbcon-searchbtn {
+  background-color: #01ab40;
+}
+
+.consult-acc {
+  width: 800px;
+  margin-top: 10px;
+}
+
+.consult-acc input {
+  text-transform: uppercase;
+}
+
+.consult-acc select {
+  width: 250px;
+}
+
+.consult-info .comment {
+  box-sizing: border-box;
+  background-color: #ffff;
+  width: 355px;
+  height: 80px;
+  margin-right: 5px;
+  resize: none;
+  border: 2px solid #01ab40;
+  border-radius: 5px;
+}
+
+.consult-acc-seemore {
+  width: 300px;
+  margin-top: 10px;
+  border: 2px solid;
+}
+
+.consult-acc-seemore input {
+  text-transform: uppercase;
+}
+
+.consult-acc-seemore select {
+  width: 250px;
+}

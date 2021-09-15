@@ -77,84 +77,65 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <form class="add-resident">
-                          <div class="d-flex flex-wrap identification">
-                            <div class="input-box">
-                              <div class="details">Purok No.:</div>
-                              <select class="purok" name="Select">
-                                <option selected>Select</option>'
-                                <option value="one">UNO</option>'
-                                <option value="two">DOS</option>
-                                <option value="three">TRES</option>
-                                <option value="four">KWATRO</option>
-                                <option value="five">SINGKO</option>
-                                <option value="six">SAIS</option>
-                                <option value="seven">SYETE</option>
-                              </select>
+                        <form class="d-flex flex-wrap add-consultation">
+
+                          <div class="con-info d-flex flex-wrap justify-content-center">
+                            <div class="d-flex consultation-info">
+                              <div class="input-box-name">
+                                <div class="details">NAME:</div>
+                                <input type="text" placeholder="" required>
+                              </div>
                             </div>
-                            <div class="input-box">
-                              <div class="details">Family ID No.:</div>
-                              <input type="text" placeholder="" required>
-                            </div>
-                          </div>
-                          <div class="d-flex flex-wrap identification">
-                            <div class="input-box">
-                              <div class="details">First Name:</div>
-                              <input type="text" placeholder="" required>
-                            </div>
-                            <div class="input-box">
-                              <div class="details">Middle Name:</div>
-                              <input type="text" placeholder="" required>
-                            </div>
-                            <div class="input-box">
-                              <div class="details">Last Name:</div>
-                              <input type="text" placeholder="" required>
+                            <div class="flex-wrap d-flex consultation-acc">
+                              <div class="input-box">
+                                <div class="details">RESIDENT ID NO.:</div>
+                                <input type="text" placeholder="" required>
+                              </div>
+                              <div class="input-box">
+                                <div class="details">FAMILY HEAD:</div>
+                                <input type="text" placeholder="" required>
+                              </div>
                             </div>
                           </div>
-                          <div class="d-flex flex-wrap identification">
+
+                          <div class="d-flex flex-wrap consult-acc-seemore">
                             <div class="input-box">
-                              <div class="details">Age:</div>
+                              <div class="details">TYPE OF CONSULTATION:</div>
+                              <select type="text" placeholder="" required></select>
+                            </div>
+                            <div class="input-box">
+                              <div class="details">HEIGHT.:</div>
                               <input type="text" placeholder="" required>
                             </div>
                             <div class="input-box">
-                              <div class="details">Birthdate:</div>
-                              <input type="date" class="date" placeholder="" required>
+                              <div class="details">WEIGHT:</div>
+                              <input type="text" placeholder="" required>
                             </div>
                             <div class="input-box">
-                              <div class="details">Address:</div>
-                              <input type="text" placeholder="" required>
+                              <div class="details">LMP:</div>
+                              <input type="date" placeholder="">
                             </div>
                           </div>
-                          <div class="d-flex flex-wrap identification">
+
+                          <div class="d-flex flex-wrap consult-info">
                             <div class="input-box">
-                              <div class="details">Sex:</div>
-                              <select class="gender" name="gender">
-                                <option selected>Select</option>'
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                              </select>
+                              <div class="details">COMPLAINS:</div>
+                              <textarea class="comment" placeholder=""></textarea>
                             </div>
                             <div class="input-box">
-                              <div class="details">Civil Status:</div>
-                              <select class="civil-status" name="civil-stat">
-                                <option selected>Select</option>'
-                                <option value="single">Single</option>
-                                <option value="married">Married</option>
-                                <option value="divorced">Divorced</option>
-                                <option value="Widowed">Widowed</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="d-flex flex-wrap identification">
-                            <div class="input-box">
-                              <div class="details">PhilHealth ID No:</div>
-                              <input type="text" placeholder="" required>
+                              <div class="details">FINDINGS:</div>
+                              <textarea class="comment" placeholder=""></textarea>
                             </div>
                             <div class="input-box">
-                              <div class="details">4PS ID No:</div>
-                              <input type="text" placeholder="" required>
+                              <div class="details">DIAGNOSIS:</div>
+                              <textarea class="comment" placeholder=""></textarea>
+                            </div>
+                            <div class="input-box">
+                              <div class="details">TREATMENT:</div>
+                              <textarea class="comment" placeholder=""></textarea>
                             </div>
                           </div>
+
                         </form>
                       </div>
                       <div class="modal-footer">
@@ -184,9 +165,9 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <form class="d-flex add-consultation">
+                      <form class="d-flex flex-wrap add-consultation">
 
-                        <div class="con-info">
+                        <div class="con-info d-flex flex-wrap justify-content-center">
                           <div class="d-flex consultation-info">
                             <div class="input-box-name">
                               <div class="details">NAME:</div>
@@ -205,15 +186,12 @@
                           </div>
                         </div>
 
-                        <div class="d-flex flex-wrap consultation-acc">
-                          <form class="dbres-search">
-                            <input class="dbres-input" placeholder="Search...">
-                            <button class="dbres-searchbtn" type="submit"><i class="fas fa-search"></i></button>
-                          </form>
-                          <button type="button" class="btn btn-success">Add Consultation</button>
+                        <div class="d-grid flex-wrap align-items-center consult-acc-srch">
+                          <input class="dbcon-input" placeholder="Search name of resident...">
+                          <button class="dbcon-searchbtn" type="submit"><i class="fas fa-search"></i></button>
                         </div>
 
-                        <div class="d-flex flex-wrap consultation-acc">
+                        <div class="d-flex flex-wrap consult-acc">
                           <div class="input-box">
                             <div class="details">TYPE OF CONSULTATION:</div>
                             <select type="text" placeholder="" required></select>
@@ -231,25 +209,25 @@
                             <input type="date" placeholder="">
                           </div>
                         </div>
-                        <div class="d-flex flex-wrap consultation-acc">
+
+                        <div class="d-flex flex-wrap consult-info">
                           <div class="input-box">
                             <div class="details">COMPLAINS:</div>
-                            <input type="text" placeholder="" required>
+                            <textarea class="comment" placeholder=""></textarea>
                           </div>
                           <div class="input-box">
-                            <div class="details">FINDINGS.:</div>
-                            <input type="text" placeholder="" required>
+                            <div class="details">FINDINGS:</div>
+                            <textarea class="comment" placeholder=""></textarea>
                           </div>
                           <div class="input-box">
                             <div class="details">DIAGNOSIS:</div>
-                            <input type="text" placeholder="" required>
+                            <textarea class="comment" placeholder=""></textarea>
                           </div>
                           <div class="input-box">
                             <div class="details">TREATMENT:</div>
-                            <input type="text" placeholder="" required>
+                            <textarea class="comment" placeholder=""></textarea>
                           </div>
                         </div>
-
                       </form>
                     </div>
 

@@ -50,6 +50,20 @@
             <a href="event_db.php"><i class="fas fa-calendar-alt"></i><br>Events</a>
           </div>
           <hr>
+          <div clas=" total-db">
+            <div class="total-resident">
+              <p class="total">0</p>
+              <p class="totsl-res"> Total Resident </p>
+            </div>
+            <div class="total-resident">
+              <p class="total">0</p>
+              <p class="totsl-res"> Total Head Family </p>
+            </div>
+            <div class="total-resident">
+              <p class="total">0</p>
+              <p class="totsl-res"> Total Consultation </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

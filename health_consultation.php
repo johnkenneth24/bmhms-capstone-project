@@ -52,6 +52,7 @@
             <button class="dbres-searchbtn" type="submit"><i class="fas fa-search"></i></button>
           </form>
         </div>
+
         <div class="container position-relative d-flex flex-row  resident-list">
           <div class="col-9 res-list">
             <div class="res-account">
@@ -79,6 +80,7 @@
                       <div class="modal-body">
                         <form class="d-flex flex-wrap add-consultation">
 
+
                           <div class="con-info d-flex flex-wrap justify-content-center">
                             <div class="d-flex consultation-info">
                               <div class="input-box-name">
@@ -98,7 +100,12 @@
                             </div>
                           </div>
 
-                          <div class="d-flex flex-wrap consult-acc-seemore">
+                          <div class="d-grid flex-wrap align-items-center consult-acc-srch">
+                            <input class="dbcon-input" placeholder="Search name of resident...">
+                            <button class="dbcon-searchbtn" type="submit"><i class="fas fa-search"></i></button>
+                          </div>
+
+                          <div class="d-flex flex-wrap consult-acc">
                             <div class="input-box">
                               <div class="details">TYPE OF CONSULTATION:</div>
                               <select type="text" placeholder="" required></select>
@@ -120,19 +127,19 @@
                           <div class="d-flex flex-wrap consult-info">
                             <div class="input-box">
                               <div class="details">COMPLAINS:</div>
-                              <textarea class="comment" placeholder=""></textarea>
+                              <textarea class="comment" placeholder="Type here..."></textarea>
                             </div>
                             <div class="input-box">
                               <div class="details">FINDINGS:</div>
-                              <textarea class="comment" placeholder=""></textarea>
+                              <textarea class="comment" placeholder="Type here..."></textarea>
                             </div>
                             <div class="input-box">
                               <div class="details">DIAGNOSIS:</div>
-                              <textarea class="comment" placeholder=""></textarea>
+                              <textarea class="comment" placeholder="Type here..."></textarea>
                             </div>
                             <div class="input-box">
                               <div class="details">TREATMENT:</div>
-                              <textarea class="comment" placeholder=""></textarea>
+                              <textarea class="comment" placeholder="Type here..."></textarea>
                             </div>
                           </div>
 
@@ -146,7 +153,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
 
@@ -164,6 +170,7 @@
                       <h5 class="modal-title" id="staticBackdropLabel">ADD CONSULTATION</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+
                     <div class="modal-body">
                       <form class="d-flex flex-wrap add-consultation">
 
@@ -213,19 +220,19 @@
                         <div class="d-flex flex-wrap consult-info">
                           <div class="input-box">
                             <div class="details">COMPLAINS:</div>
-                            <textarea class="comment" placeholder=""></textarea>
+                            <textarea class="comment" placeholder="Type here..."></textarea>
                           </div>
                           <div class="input-box">
                             <div class="details">FINDINGS:</div>
-                            <textarea class="comment" placeholder=""></textarea>
+                            <textarea class="comment" placeholder="Type here..."></textarea>
                           </div>
                           <div class="input-box">
                             <div class="details">DIAGNOSIS:</div>
-                            <textarea class="comment" placeholder=""></textarea>
+                            <textarea class="comment" placeholder="Type here..."></textarea>
                           </div>
                           <div class="input-box">
                             <div class="details">TREATMENT:</div>
-                            <textarea class="comment" placeholder=""></textarea>
+                            <textarea class="comment" placeholder="Type here..."></textarea>
                           </div>
                         </div>
                       </form>
@@ -239,25 +246,21 @@
                   </div>
                 </div>
               </div>
-              <!-- END MOOOOOOOOO OOOOOOODAL -->
-
-
+              <!-- END MOOOOOOOOOODAL -->
             </div>
+
           </div>
+
           <!-- END MOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOODAL -->
         </div>
-
       </div>
-      <!--col 3 end-->
+
 
     </div>
+    <!--row end-->
 
-
-  </div>
-
-
-  <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
-  <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>

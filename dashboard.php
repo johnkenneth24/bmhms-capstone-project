@@ -47,7 +47,7 @@
           <div class="dashboard-menu">
             <a href="resident_profile.php"><i class="fas fa-id-badge"></i><br>Resident Profile</a>
             <a href="health_consultation.php"><i class="fas fa-heartbeat"></i><br>Health Consultation</a>
-            <a href="#"><i class="fas fa-calendar-alt"></i><br>Events</a>
+            <a href="event_db.php"><i class="fas fa-calendar-alt"></i><br>Events</a>
           </div>
           <hr>
         </div>

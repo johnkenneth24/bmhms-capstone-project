@@ -406,3 +406,66 @@ select {
   font-family: sans-serif;
   font-weight: 700;
 }
+
+/*Event*/
+
+.db-event {
+  width: 300px;
+  height: 68vh;
+  top: 20px;
+  left: 20px;
+}
+
+.db-event .up-event {
+  box-shadow: 0px 1px 5px grey;
+  border: 2px solid #01ab40;
+  padding: 0px;
+  margin: 0px;
+  background-color: #01ab40;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.event-list {
+  border: 2px solid #01ab40;
+  overflow-y: scroll;
+  height: 64vh;
+  box-shadow: 0px 1px 5px grey;
+}
+
+.event-data {
+  margin-top: 5px;
+  border-radius: 3px;
+  background-color: #01ab40;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 2px;
+  width: 270px;
+  height: 12vh;
+}
+
+.event-data p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.add-event .btn-add-event {
+  background-color: #ffff;
+  text-transform: uppercase;
+  position: relative;
+  top: 15px;
+  left: 20px;
+  width: 220px;
+  height: 50px;
+  background-color: #ffff;
+  border: 4px solid #01ab40;
+  color: #0e912f;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.add-event input {
+  text-transform: uppercase;
+}

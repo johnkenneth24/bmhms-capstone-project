@@ -97,7 +97,6 @@
                                                       </tbody>
                                                     </table>
                                                   </center>
-
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
@@ -492,7 +491,7 @@
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
           <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">PUROK SAIS LIST</h5>
+              <h5 class="modal-title" id="staticBackdropLabel">PUROK SIETE LIST</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body d-block justify-content-center">
@@ -565,36 +564,3 @@
 </body>
 
 </html>
-
-<!--
-<button type="button" class="btn-purok btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
-    PUROK <br> UNO
-</button>
-
-
-<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">PUROK UNO LIST</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-block justify-content-center">
-                <div class="d-inline purok-family">
-                    <p class="fam-no">FAMILY NO.:</p>
-                    <P class="fam-head">FAMILY HEAD:</p>
-                    <div class="text-end see-more">
-                        <a type="button" class="mr-5 btn-seemore" data-bs-toggle="modal" data-bs-target="#staticBackdropSeeMore">
-                            See more...
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
--->

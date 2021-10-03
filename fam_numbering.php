@@ -46,7 +46,7 @@
 
       <div class="col-md-9 content">
         <div class="d-flex flex-row justify-content-between align-items-center dbres-profile ">
-          <p class="mb-0">FAMILY HEAD LIST</p>
+          <h3 class="mb-0">FAMILY HEAD LIST</h3>
           <form class="dbres-search">
             <input class="dbres-input" placeholder="Search...">
             <button class="dbres-searchbtn" type="submit"><i class="fas fa-search"></i></button>

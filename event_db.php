@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>BMHMS - Resident Profile</title>
+    <title>BMHMS - Event</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -33,11 +33,11 @@
             <div class="col-md-3 sidebar">
                 <div class="d-grid flex-column menu-sidebar">
                     <a class="active" href="dashboard.php"><i class="fas fa-home"></i>Dashboard</a>
-                    <a href="#"><i class="fas fa-map-marker-alt"></i>Purok</a>
-                    <a href="#"><i class="fas fa-child"></i>Family Numbering</a>
-                    <a href="#"><i class="fas fa-capsules"></i>Medicine Request</a>
-                    <a href="#"><i class="fas fa-file-alt"></i>Reports</a>
-                    <a href="#"><i class="fas fa-address-card"></i>Manage Account</a>
+                    <a href="purok.php"><i class="fas fa-map-marker-alt"></i>Purok</a>
+                    <a href="fam_numbering.php"><i class="fas fa-child"></i>Family Numbering</a>
+                    <a href="med_request.php"><i class="fas fa-capsules"></i>Medicine Request</a>
+                    <a href="reports.php"><i class="fas fa-file-alt"></i>Reports</a>
+                    <a href="manage_account.php"><i class="fas fa-address-card"></i>Manage Account</a>
                 </div>
                 <div class="position-relative d-grid flex-column log-out">
                     <a href="index.php" class="log-out"><i class="fas fa-sign-out-alt"></i>Log Out</a>

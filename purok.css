@@ -1,0 +1,58 @@
+
+/*PUROK*/
+
+.purok-list{
+  position: relative;
+  top: 10px;
+}
+.btn-purok-list{
+    height: 125px;
+    width: 125px;
+    line-height: normal;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.purok-family{
+  border: 2px solid #01ab40;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.purok-family p{
+  margin-bottom: 0px;
+  padding-left: 5px;
+  color: #01ab40;
+  font-weight: 500;
+}
+
+.purok-family a{
+  text-decoration: none;
+  margin-right: 9px;
+  font-size: 1rem;
+}
+
+.purok-family-seemore{
+  border: 1px solid #01ab40;
+  margin-top: 5px;
+}
+
+.purok-family-seemore p{
+  padding-left: 10px;
+}
+
+.purok-family-seemore table{
+  width: 95%;
+}
+.purok-family-seemore td{
+  text-align: left;
+}
+
+.purok-family-seemore table th{
+  color: #ffff;
+  text-align: center;
+}
+
+/*FAMILY NUMBERING*/

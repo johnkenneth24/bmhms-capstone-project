@@ -181,17 +181,8 @@ body {
   width: 98%;
   top: 15px;
   font-weight: 500;
+  font-size: 2rem;
   font-family: sans-serif;
-}
-
-.res-prof {
-  font-size: 1.7rem;
-  text-transform: uppercase;
-}
-
-.res-prof i {
-  color: #01ab40;
-  padding-right: 10px;
 }
 
 .dbres-search input,
@@ -467,5 +458,6 @@ select {
 }
 
 .add-event input {
+  box-sizing: border-box;
   text-transform: uppercase;
 }

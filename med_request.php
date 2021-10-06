@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/css/font-awesome/css/all.css">
     <link rel="stylesheet" rel="text/css" href="dashboard_style.css">
+    <link rel="stylesheet" rel="text/css" href="purok.css">
     <link rel="icon" href="images\macawayan logo.png">
 
 </head>
@@ -120,9 +121,9 @@
                                           <form class="form-group">
                                             <h5 class="text-center">MEDICINE REQUEST FORM</h5>
                                             <br>
-                                            <div class="request_form">
+                                            <div id="printThis" class="request_form">
                                             <p class="mb-1 fw-bold req_name">Requested By: <input type="text" class="border-top-0 border-end-0 border-start-0 border-dark text-uppercase" name="" value=""></p>
-                                            <p class="mb-1 fw-bold req_name">Date Requested: <input type="date" class="border-top-0 border-end-0 border-start-0 border-dark text-uppercase" name="" value=""></p>
+                                            <p class="mb-1 fw-bold req_name">Date Requested: <input type="date" class="border-top-0 border-end-0 border-start-0 border-dark text-uppercase req_date" name="" value=""></p>
                                             <p class="lh-sm fw-bold req_name">Request No.: <input type="text" class="border-top-0 border-end-0 border-start-0 border-dark text-uppercase" name="" value=""></p>
                                             <p class="lh-sm fst-italic text-uppercase fw-bold req_name">Medicine Needed:</p>
 
@@ -144,7 +145,7 @@
                                           </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary"><i <i class="fas fa-print"></i> PRINT</button>
+                                            <button id="btnPrint" type="button" class="btn btn-primary"><i <i class="fas fa-print"></i> PRINT</button>
                                         </div>
                                     </div>
                                 </div>
@@ -160,7 +161,7 @@
             </div>
         </div>
 
-
+        <script src="print.js"></script>
         <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
         <script src="bootstrap/js/bootstrap.js"></script>
 </body>

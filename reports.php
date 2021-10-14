@@ -325,8 +325,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                  <button id="MVR
-                  btnPrint" type="button" class="btn btn-primary"><i class="fas fa-print"></i> PRINT</button>
+                  <button id="MVRbtnPrint" type="button" class="btn btn-primary"><i class="fas fa-print"></i> PRINT</button>
                 </div>
               </div>
             </div>

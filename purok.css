@@ -1,63 +1,67 @@
-
 /*PUROK*/
-
-.purok-list{
+.purok-list {
   position: relative;
   top: 10px;
 }
-.btn-purok-list{
-    height: 125px;
-    width: 125px;
-    line-height: normal;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 10px
+
+.btn-purok-list {
+  height: 125px;
+  width: 125px;
+  line-height: normal;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px
 }
 
-.purok-family{
+.purok-family {
   border: 2px solid #01ab40;
   border-radius: 5px;
   margin-top: 5px;
 }
 
-.purok-family p{
+.purok-family p {
   margin-bottom: 0px;
   padding-left: 5px;
   color: #01ab40;
   font-weight: 500;
 }
 
-.purok-family a{
+.purok-family a {
   text-decoration: none;
   margin-right: 9px;
   font-size: 1rem;
 }
 
-.purok-family-seemore{
+.purok-family-seemore {
   border: 1px solid #01ab40;
   margin-top: 5px;
 }
 
-.purok-family-seemore p{
+.purok-family-seemore p {
   padding-left: 10px;
 }
 
-.purok-family-seemore table{
+.purok-family-seemore table {
   width: 95%;
 }
-.purok-family-seemore td{
+
+.purok-family-seemore td {
   text-align: left;
 }
 
-.purok-family-seemore table th{
+.purok-family-seemore table th {
   color: #ffff;
   text-align: center;
 }
 
+.report-gen .btn-reportgen {
+  width: 50vh;
+}
+
 @media screen {
   #printSection {
-      display: none;
+    display: none;
   }
 }
 
@@ -65,12 +69,71 @@
   body * {
     visibility: hidden;
   }
+
   #printSection, #printSection * {
     visibility: visible;
   }
+
   #printSection {
     position: absolute;
-    left:0;
-    top:0;
+    left: 5px;
+    top: 10px;
   }
+}
+
+@page
+    {
+        size:  auto;
+        margin: 01mm;
+    }
+
+.btn-monthly-report{
+  height: 55px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.mar-report{
+  width: 100%;
+}
+.mar-report form{
+  padding: 0px;
+  line-height: normal;
+  width: 200px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+
+.mar-report form p{
+    margin-bottom: 0px;
+
+}
+
+.form-group-mar th{
+  padding: 0px;
+
+}
+
+.form-group-mar td{
+  padding: 0px;
+}
+
+.signature-by{
+  position: relative;
+  left: 10px;
+}
+
+.submitted-by{
+  width: 300px;
+}
+
+.noted-sign{
+   width: 300px;
+   margin-right: 100px;
+}
+
+.signature-by input{
+  width: 300px;
+  border-width: 0px 0px 1px 0px;
 }
